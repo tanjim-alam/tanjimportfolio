@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="py-16 relative"
       style={{ background: 'radial-gradient(ellipse at 30% 50%, #0e2a6e22 0%, transparent 70%)' }}
     >
-      <div className="max-w-6xl mx-auto px-8 md:px-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 md:px-16">
         <div ref={ref} className="reveal">
 
           {/* Card */}

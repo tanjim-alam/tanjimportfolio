@@ -50,14 +50,14 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative w-full max-w-6xl mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-12 pt-24 pb-16">
+      <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-12 pt-24 pb-16">
 
         {/* LEFT: Text Content */}
         <div className="flex-1 w-full md:max-w-xl">
 
           {/* Name */}
           <h1
-            className={`text-5xl md:text-6xl font-bold text-white mb-3 transition-all duration-700 ${
+            className={`text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-3 transition-all duration-700 ${
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
             style={{ transitionDelay: '100ms', fontFamily: 'var(--font-display)' }}
@@ -113,14 +113,14 @@ export default function Hero() {
           >
             <a
               href="#projects"
-              className="px-5 md:px-7 py-3 text-center w-full md:w-fit text-sm font-bold text-white rounded-lg transition-all hover:brightness-110 hover:scale-105"
+              className="px-4 sm:px-5 md:px-7 py-3 text-center w-full md:w-fit text-sm font-bold text-white rounded-lg transition-all hover:brightness-110 hover:scale-105"
               style={{ background: '#3b82f6' }}
             >
               View Projects
             </a>
             <a
               href={personalInfo.resumeUrl}
-              className="px-5 md:px-7 py-3 w-full md:w-fit text-center text-sm font-bold text-white/80 rounded-lg border border-white/20 hover:border-white/40 hover:text-white transition-all hover:scale-105"
+              className="px-4 sm:px-5 md:px-7 py-3 w-full md:w-fit text-center text-sm font-bold text-white/80 rounded-lg border border-white/20 hover:border-white/40 hover:text-white transition-all hover:scale-105"
               style={{ background: 'rgba(255,255,255,0.08)' }}
               download
             >

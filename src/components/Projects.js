@@ -174,7 +174,7 @@ function ProjectCard({ project, index }) {
   const ref = useReveal(index * 120)
 
   return (
-    <div ref={ref} className="reveal flex-shrink-0 w-[300px] md:w-[340px] border-2 border-white">
+    <div ref={ref} className="reveal flex-shrink-0 w-[300px] md:w-[340px]">
       <div
         className="rounded-2xl p-5 flex flex-col h-full"
         style={{
@@ -257,7 +257,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-16 relative">
-      <div className="max-w-6xl mx-auto px-8 md:px-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 md:px-16">
 
         {/* Title + nav arrows */}
         <div ref={headerRef} className="reveal flex items-center gap-4 mb-10">

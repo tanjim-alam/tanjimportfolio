@@ -7,7 +7,7 @@ export default function CaseStudy() {
 
   return (
     <section id="case-study" className="py-16 relative overflow-hidden">
-      <div className="max-w-6xl mx-auto px-8 md:px-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 md:px-16">
         <div ref={ref} className="reveal">
 
           {/* Title */}
