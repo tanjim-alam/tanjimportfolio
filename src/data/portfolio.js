@@ -46,7 +46,7 @@ export const experience = [
     ],
   },
   {
-    company: 'Liv Exllence',
+    company: 'Liv Excellence',
     role: 'MERN Stack Developer',
     period: '2024 — 2026',
     bullets: [
