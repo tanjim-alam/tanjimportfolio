@@ -46,7 +46,7 @@ export const experience = [
     ],
   },
   {
-    company: 'Liv Excellence',
+    company: 'Billionaire Dream Estate Pvt Ltd, Bangalore',
     role: 'MERN Stack Developer',
     period: '2024 — 2026',
     bullets: [
